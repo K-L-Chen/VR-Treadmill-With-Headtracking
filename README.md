@@ -21,6 +21,11 @@ To permanently change settings, edit treadmill.py and change the vaules between 
 
 # Additions
 
+In an attempt to add additional functionality to the base source code, this fork's purpose is to try and decouple the movement on the treadmill from the rotation of the user's head.
+
+This is done by multiplying the vector of movement (i.e. walking on the treadmill) by the angle between the direction the user's head is facing and the vector of movement.
+
 NEW REQUIREMENTS:
 
 pip install openvr
+
