@@ -1,4 +1,7 @@
 # VR-Treadmill
+
+Below is the README from the original repository.
+
 script that converts mouse movement into joystick movement for a VR treadmill.
 (requires Python3)
 
@@ -16,6 +19,8 @@ pip install PyQt6
 
 To permanently change settings, edit treadmill.py and change the vaules between the dashes near the top.
 
-FUTURE IDEAS:
+# Additions
 
-using an openxr library to directly control the game instead of a virtual xbox360 controller
+NEW REQUIREMENTS:
+
+pip install openvr
